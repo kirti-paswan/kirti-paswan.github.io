@@ -1,0 +1,87 @@
+body {background-image: url(../images/sushant1.jpg);
+opacity: 0.70;
+background-size: auto}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-container > li {
+  background-color:orange;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+  display: block;
+  padding: 4px 4px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.img1 {
+  border-color: black;
+  border-style: groove;
+  float: left;
+  border-radius: 50%;
+}
+
+.img2 {
+  border-color: black;
+  border-style: groove;
+  float: center;
+  border-radius: 50%;
+}
+ul{
+    list-style-type: square;
+}
+.gridcont {
+    display: grid;
+    grid-template-areas: "hd hd hd hd"
+                         "lf body11 body11 body11"
+                         "ft ft ft ft"
+}
+
+.header { 
+    grid-area: hd;
+    list-style-position: inside;
+    background-color: #f1c8b6;
+    background-origin: padding-box;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+
+.leftsec {
+    grid-area: lf;
+    list-style-position: center;
+    font-style: italic;
+    background-color: moccasin;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+
+ .body1 {
+     font-size: initial;
+     grid-area: body11;
+    background-color: violet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+ }
+
+  .footer {
+    grid-area: ft;
+    background-color: skyblue;
+    border-style: solid;
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;;
+}
