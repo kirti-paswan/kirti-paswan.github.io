@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Title>TravelDuniya</Title>
+</head>
+
+<Body>
+    <style>
+        body {
+            background-image: url('https://image.freepik.com/free-photo/simply-flat-lay-design-miniature-toy-model-plane-5-stars-rating-blue-pastel-colorful-trendy-background-travel-by-plane-vacation-summer-weekend-sea-adventure-trip-journey-ticket-tour-concept_80942-897.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+              font-family: Arial, Helvetica, sans-serif;
+              opacity: 0.90;
+        }
+
+{
+  box-sizing: border-box;
+}
+
+        input[type=text], select, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  display: inline-block;
+  margin-bottom: 10px;
+  resize: vertical;
+        }
+        .container {
+  border-radius: 5px;
+  background-color:;
+  padding: 5Spx;
+        }
+        label {
+            font-style: italic;
+        }
+  input[type=number], select, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+        }
+        input[type=submit]:hover {
+  background-color: #45a049;
+  
+        }
+    </style>
+    <h1 style="text-align: center;font-style: italic;">Welcome New Travelers</h1>
+    <p style="text-align: center;"><em><strong>Please Fill up the Form below :-</strong></em></p>
+    <div class="container">
+        <form>
+            <span>
+            <label><b>Name of Traveler:</b></label>
+            <input type="text" id="name" name="Name"required><br>
+            <label><b>Age:</b></label>
+            <input type="number" name="Age" required><br>
+            <label for="email"><b>Email:</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+            <label><b>Phone No:</b></label>
+            <input type="text" maxlength="10" pattern="[0-9]{10}" title="Phone Number" required><br>
+            <label><b>Medical Condition:</b></label>
+            <select id="" name="">
+                <option value="">Yes</option>
+                <option value="">No</option>
+            </select><br><br>
+            <label><b>Country Name:</b></label>
+            <input type="text" name="Name" value=""><br>
+            <label><b>Travel From:</b></label>
+            <input type="text" name="Name" value=""><br>
+            <label><b>Travel To:</b></label>
+            <input type="text" name="Name" value=""><br>
+            <label><b>Date of Travelling:</b></label>
+            <input type="Date" name="" value=""><br>
+            <input type="submit" value="submit">
+            </span>
+        </form>
+    </div>
+</Body>
+
+</html>
