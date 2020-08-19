@@ -1,0 +1,59 @@
+body {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.div1 {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border-style: solid;
+    border-color: midnightblue;
+    background-color: darkslategrey;
+}
+
+button {
+    width: 146px;
+    height: 83px;
+    font-size: 2.5rem;
+    color:white;
+    background-color: black;
+}
+
+button:hover {
+    background-color: green;
+    color: black;
+}
+
+
+.clear {
+    width: 100%;
+}
+input {
+    text-align: right;
+    width: 440px;
+    height: 60px;
+    border: solid;
+}
+
+input[type="text"] {
+        font-size:2.5rem;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 4.0rem;
+    border: solid;
+    width: 600px;
+    background-color: gainsboro;
+    
+}
+h1:hover {
+    background-color: indianred;
+    color: black;
+}
+
+input:hover {
+    background-color: plum;
+}
