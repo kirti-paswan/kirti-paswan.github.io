@@ -1,0 +1,94 @@
+.container {
+    display: grid;
+        grid-template-areas: "lb hd hd hd"
+                        "lb rb rb rb"
+                        "lb rb rb rb"
+                         "ft ft ft ft"
+                         
+}
+ .header {
+     grid-area: hd;
+     background-color: white;
+      border: solid;
+     border-color: gainsboro;
+     height: 60px;
+ }
+ .left-body {
+     grid-area: lb;
+     background-color: white;
+     text-align: center;
+     border: solid;
+     border-color: gainsboro;
+     padding-top: 6%;
+ }
+
+ .right-body {
+     grid-area: rb;
+     background-color: white;
+      border: solid;
+     border-color: gainsboro;
+     padding-left: 1%;
+     height: 500px;
+     
+ }
+  .footer {
+     grid-area: ft;
+     background-color: gainsboro;
+      border: solid;
+     border-color: gainsboro;
+     text-align: center;
+ }
+.ul1 {
+    float: right;
+  list-style-type: none;
+}
+
+.ul1 > li {
+  float: right;
+  font-size: 20px;
+  
+ 
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+   text-decoration: none;
+   color: lightslategrey;
+}
+
+.ulName > li {
+    list-style: none;
+    color: green;
+    font-size: 20px;
+}
+table {
+  border-collapse: collapse;
+  border: black;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  border-right-style: solid;
+     border-right-color: gainsboro;
+     border-r
+  padding: 6px;
+  font-size: 20px;
+}
+input {
+    width: 150px;
+    height: 20px;
+}
+button {
+    width: 70px;
+    height: 20px;
+}
+
+hr {
+    color: gainsboro;
+}
+body {
+  margin: 0%;
+}
